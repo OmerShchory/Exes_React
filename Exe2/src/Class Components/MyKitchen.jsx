@@ -50,9 +50,9 @@ export default class MyKitchen extends Component {
     return (
       <div>
         {/* Recipes */}
-        <Recipes recipes={this.state.recipes} title={"Recipes"} btnText={"Prepare dish!"} clickEvent={this.changeRecipes} counter={this.state.counter_recipes}/>  
+        <Recipes recipes={this.state.recipes} title={"Recipes"} btnText={"Prepare dish!"} clickEvent={this.changeRecipes} counter={this.state.counter_recipes} btnColor={"btn-outline-primary"}/>  
         {/* Recipes ready to eat */}
-        <Recipes recipes={this.state.ready_to_eat} title={"Ready to EAT!"} btnText={"eat!"} clickEvent={this.changeMadeRecipes} counter={this.state.counter_ready}/> 
+        <Recipes recipes={this.state.ready_to_eat} title={"Ready to EAT!"} btnText={"eat!"} clickEvent={this.changeMadeRecipes} counter={this.state.counter_ready} btnColor={"btn-outline-danger"}/> 
 
       </div>
     

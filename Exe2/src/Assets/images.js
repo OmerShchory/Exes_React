@@ -1,0 +1,1 @@
+export const shopLogo = require('./images/shop.png');

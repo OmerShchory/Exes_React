@@ -7,13 +7,14 @@ export default function Recipes(props) {
     const btnText = props.btnText;
     const clickEvent = props.clickEvent;
     const counter = props.counter;
+    const btnColor = props.btnColor;
 
   return (
     <div> 
-        <h1>{title}</h1>
-        <h3>Recipes made: {counter}</h3>
+        {counter > 0 && <h1>{title}</h1>}
+        {counter > 0 &&<h3>Recipes made: {counter}</h3>}
         <div className='recipesDiv'>
-            {recipes.map((recipe, key)=><RecipeCard recipeCard={recipe} key={key} btnText={btnText} clickEvent={clickEvent} />)}
+            {recipes.map((recipe, key)=><RecipeCard recipeCard={recipe} key={key} btnText={btnText} clickEvent={clickEvent} btnColor = {btnColor}/>)}
         </div>
     </div>
   )
