@@ -7,8 +7,7 @@ export default function Nav(){
             <Navbar.Brand>
             <img
                 src={shopLogo}
-                width="50"
-                heaight="50"
+                style={{width:50, height:50, padding:10, borderRadius: '20px'}}
                 className="d-inline-block align-top"
                 alt="React Bootstrap logo"
             />
