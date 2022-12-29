@@ -1,0 +1,85 @@
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\Server side.dll.config
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\Server side.dll
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\Server side.pdb
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\roslyn\csc.exe
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\roslyn\csc.exe.config
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\roslyn\csc.rsp
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\roslyn\csi.exe
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\roslyn\csi.exe.config
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\roslyn\csi.rsp
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\roslyn\Microsoft.Managed.Core.targets
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\roslyn\System.AppContext.dll
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\roslyn\System.Collections.Immutable.dll
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\roslyn\System.Console.dll
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\roslyn\System.IO.Compression.dll
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\roslyn\System.IO.FileSystem.dll
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\roslyn\System.IO.Pipes.dll
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\roslyn\System.Reflection.Metadata.dll
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\roslyn\System.Security.AccessControl.dll
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\roslyn\System.Security.Claims.dll
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\roslyn\System.Security.Principal.Windows.dll
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\roslyn\System.ValueTuple.dll
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\roslyn\System.Xml.XmlDocument.dll
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\roslyn\System.Xml.XPath.dll
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\roslyn\vbc.exe
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\roslyn\vbc.exe.config
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\roslyn\vbc.rsp
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\roslyn\VBCSCompiler.exe
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\roslyn\VBCSCompiler.exe.config
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\Antlr3.Runtime.dll
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\Microsoft.Web.Infrastructure.dll
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\Newtonsoft.Json.dll
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\System.Net.Http.Formatting.dll
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\System.Web.Helpers.dll
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\System.Web.Http.dll
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\System.Web.Http.WebHost.dll
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\System.Web.Mvc.dll
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\System.Web.Optimization.dll
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\System.Web.Razor.dll
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\System.Web.WebPages.Deployment.dll
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\System.Web.WebPages.dll
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\System.Web.WebPages.Razor.dll
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\WebGrease.dll
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\Newtonsoft.Json.xml
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\System.Net.Http.Formatting.xml
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\System.Web.Helpers.xml
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\System.Web.Http.xml
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\System.Web.Http.WebHost.xml
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\System.Web.Mvc.xml
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\System.Web.Optimization.xml
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\System.Web.Razor.xml
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\System.Web.WebPages.xml
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\System.Web.WebPages.Deployment.xml
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\System.Web.WebPages.Razor.xml
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\Antlr3.Runtime.pdb
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\projects\React - Ruppin\Ex3\Server side\Server side\obj\Debug\Server side.csprojAssemblyReference.cache
+C:\projects\React - Ruppin\Ex3\Server side\Server side\obj\Debug\Server side.csproj.CoreCompileInputs.cache
+C:\projects\React - Ruppin\Ex3\Server side\Server side\obj\Debug\Server side.csproj.CopyComplete
+C:\projects\React - Ruppin\Ex3\Server side\Server side\obj\Debug\Server side.dll
+C:\projects\React - Ruppin\Ex3\Server side\Server side\obj\Debug\Server side.pdb
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\System.Web.Cors.dll
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\System.Web.Http.Cors.dll
+C:\projects\React - Ruppin\Ex3\Server side\Server side\bin\System.Web.Http.Cors.xml
