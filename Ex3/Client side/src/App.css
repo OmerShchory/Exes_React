@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+body{
+  font-family: 'Lato', sans-serif;
+}
+.notfound{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  flex-direction: column;
+}
+#noRecipes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:60vh;
+  text-align: center;
+}
+
+h1{
+  text-align: center;
+  font-weight: bold;
+}
+a{
+  color: lightseagreen;
+  font-weight: bolder;
+  padding: 12px;
+}
+
+#main{
+  height: 100vh;
+}
+.navbar{
+  background-color:#E0E0E0;
+  display: flex;
+  text-align: center;
+}
+
+
+.navbar-expand .navbar-nav {
+  flex: 1;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: 0.25rem;
+  margin: 5px;
+}
+
+
+.recipesDiv{
+  display: grid;
+  grid-template-columns:  300px 300px 300px;
+  padding: 2%;
+  justify-content: center;
+}
+
+.ingredientsDiv{
+  display: grid;
+  grid-template-columns:  200px 200px 200px;
+  padding: 2%;
+  justify-content: center;
+}
+
+@media (min-width: 630px) and (max-width: 950px) {
+
+  .ingredientsDiv{
+      display: grid;
+      grid-template-columns:  200px 200px;
+      padding: 2%;
+      gap:10px;
+      justify-content: center;
+  }
+}
+
+@media (min-width: 992px){
+  .navbar-expand-lg .navbar-collapse {
+      display: flex;
+      flex-basis: auto;
+      justify-content: center;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 630px) {
+  
+  .ingredientsDiv{
+      display: grid;
+      grid-template-columns:  200px;
+      padding: 2%;
+      gap:10px;
+      justify-content: center;
+      justify-items: center;
+  }
+}
+
+
+@media (min-width: 630px) and (max-width: 950px) {
+
+  .recipesDiv{
+      display: grid;
+      grid-template-columns:  300px 300px;
+      padding: 2%;
+      gap:10px;
+      justify-content: center;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 630px) {
+  
+  .recipesDiv{
+      display: grid;
+      grid-template-columns:  300px;
+      padding: 2%;
+      gap:10px;
+      justify-content: center;
+      justify-items: center;
+  }
+}

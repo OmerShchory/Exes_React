@@ -107,6 +107,8 @@ namespace Server_side.Models.DAL
 
                     recipe.Ingredients.Add(ingredient);
                 }
+                con.Close();
+                con = Connect();
             }
 
             con.Close();
