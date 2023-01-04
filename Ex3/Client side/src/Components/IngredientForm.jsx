@@ -1,8 +1,10 @@
-import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import { api_production } from "../Service/apiService";
 import Swal from "sweetalert2";
 import { useState } from "react";
+import TextInput from "../Common/TextInput";
+import NumberInput from "../Common/NumberInput";
+import FormButtons from "../Common/FormButtons";
 
 export default function IngredientForm() {
   const [name, setName] = useState("");
@@ -89,53 +91,26 @@ export default function IngredientForm() {
       }}
     >
       <Form className="mt-3" onSubmit={checkIngredients}>
-        <Form.Group className="mb-3">
-          <Form.Label>Name</Form.Label>
-          <Form.Control
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-            className="form-input"
-            type="text"
-            placeholder="Enter the name"
-            required
-            style={{ maxWidth: 400 }}
-          />
-        </Form.Group>
+        <TextInput
+          label="Name"
+          value={name}
+          changedText={(e) => setName(e.target.value)}
+          placeholder="Enter ingredient name"
+        />
+        <TextInput
+          label="Image"
+          value={image}
+          changedText={(e) => setImage(e.target.value)}
+          placeholder="Enter URL image"
+        />
 
-        <Form.Group className="mb-3">
-          <Form.Label>Image (URL)</Form.Label>
-          <Form.Control
-            value={image}
-            onChange={(e) => setImage(e.target.value)}
-            style={{ maxWidth: 400 }}
-            type="text"
-            placeholder="Enter URL image"
-            required
-          />
-        </Form.Group>
-
-        <Form.Group className="mb-3">
-          <Form.Label>Calories </Form.Label>
-          <Form.Control
-            value={calories}
-            onChange={(e) => setCalories(parseInt(e.target.value))}
-            style={{ maxWidth: 400 }}
-            type="number"
-            placeholder="Enter calories"
-            required
-          />
-        </Form.Group>
-
-        <Button variant="outline-primary" type="submit" style={{ width: 70 }}>
-          Submit
-        </Button>
-        <Button
-          variant="outline-danger"
-          style={{ marginLeft: 75, width: 70 }}
-          onClick={resetForm}
-        >
-          Clear
-        </Button>
+        <NumberInput
+          label="Calories"
+          value={calories}
+          changedNumber={(e) => setCalories(parseInt(e.target.value))}
+          placeholder="Enter calories"
+        />
+        <FormButtons resetForm={resetForm} />
       </Form>
     </div>
   );

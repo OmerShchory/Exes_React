@@ -1,8 +1,11 @@
-import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import { api_production } from "../Service/apiService";
 import Swal from "sweetalert2";
 import { useEffect, useRef, useState } from "react";
+import TextInput from "../Common/TextInput";
+import CheckBoxInput from "../Common/CheckBoxInput";
+import NumberInput from "../Common/NumberInput";
+import FormButtons from "../Common/FormButtons";
 
 export default function RecipeForm() {
   const formRef = useRef(null);
@@ -116,78 +119,38 @@ export default function RecipeForm() {
       }}
     >
       <Form className="mt-3" onSubmit={insertRecipe} ref={formRef}>
-        <Form.Group className="mb-3">
-          <Form.Label>Name</Form.Label>
-          <Form.Control
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-            className="form-input"
-            type="text"
-            placeholder="Enter the name"
-            required
-            style={{ maxWidth: 400 }}
-          />
-        </Form.Group>
+        <TextInput
+          label="Name"
+          value={name}
+          changedText={(e) => setName(e.target.value)}
+          placeholder="Enter recipe name"
+        />
+        <TextInput
+          label="Image"
+          value={image}
+          changedText={(e) => setImage(e.target.value)}
+          placeholder="Enter URL image"
+        />
 
-        <Form.Group className="mb-3">
-          <Form.Label>Image (URL)</Form.Label>
-          <Form.Control
-            value={image}
-            onChange={(e) => setImage(e.target.value)}
-            style={{ maxWidth: 400 }}
-            type="text"
-            placeholder="Enter URL image"
-            required
-          />
-        </Form.Group>
+        <TextInput
+          label="Cooking method"
+          value={cookingMethod}
+          changedText={(e) => setCookingMethod(e.target.value)}
+          placeholder="Enter cooking method"
+        />
 
-        <Form.Group className="mb-3">
-          <Form.Label>Cooking method</Form.Label>
-          <Form.Control
-            value={cookingMethod}
-            onChange={(e) => setCookingMethod(e.target.value)}
-            style={{ maxWidth: 400 }}
-            as="textarea"
-            rows={3}
-            placeholder="Enter cooking method"
-            required
-          />
-        </Form.Group>
+        <CheckBoxInput
+          ingredients={ingredients}
+          handleChecked={handleChecked}
+        />
 
-        <Form.Group className="mb-3">
-          {ingredients.length > 0 &&
-            ingredients.map((ingredient) => (
-              <Form.Check
-                onChange={handleChecked}
-                label={ingredient.Name}
-                id={ingredient.Id}
-                key={ingredient.Id}
-              />
-            ))}
-        </Form.Group>
-
-        <Form.Group className="mb-3">
-          <Form.Label>Time </Form.Label>
-          <Form.Control
-            value={time}
-            onChange={(e) => setTime(parseInt(e.target.value))}
-            style={{ maxWidth: 400 }}
-            type="number"
-            placeholder="Enter time"
-            required
-          />
-        </Form.Group>
-
-        <Button variant="outline-primary" type="submit" style={{ width: 70 }}>
-          Submit
-        </Button>
-        <Button
-          variant="outline-danger"
-          style={{ marginLeft: 75, width: 70 }}
-          onClick={resetForm}
-        >
-          Clear
-        </Button>
+        <NumberInput
+          label="Time"
+          value={time}
+          changedNumber={(e) => setTime(parseInt(e.target.value))}
+          placeholder="Enter time"
+        />
+        <FormButtons resetForm={resetForm} />
       </Form>
     </div>
   );
